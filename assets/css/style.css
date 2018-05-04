@@ -11,6 +11,21 @@ body {
     font-size: 16px;
     margin: 0;
 }
+.container {
+    width: 66.666666666667%;
+    margin: 0 auto;
+    background: #ffffff;
+    border: solid 1px #dddddd;
+    padding: 0 40px;
+}
+
+.headshot-img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
 
 /* Header CSS */
     header {
@@ -67,21 +82,6 @@ body {
         margin: 2px; 
     }
 
-.container {
-    width: 66.666666666667%;
-    margin: 0 auto;
-    background: #ffffff;
-    border: solid 1px #dddddd;
-    padding: 0 40px;
-}
-
-.headshot-img {
-    height: 200px;
-    width: 200px;
-    float: left;
-    margin-top: 10px;
-    margin-right: 20px;
-}
 /* Footer CSS */
     footer {
         background: #666666;
@@ -115,5 +115,29 @@ body {
     }
 
     .submit-btn:hover {
+        opacity: .8;
+    }
+
+
+/* Portfolio Page CSS */
+    .port-examples img{
+        width: 40%;
+        /* height: 167px; */
+        /* float: left; */
+        margin: 2.5%;
+    }
+
+    .sample-work {
+        position: relative;
+        /* width: 40%; */
+    }
+
+    .port-examples h3 {
+        width: 40%;
+        position: absolute;
+        float: left;
+        text-align: center;
+        bottom: 15px;
+        margin: 2.5%;
         opacity: .8;
     }
