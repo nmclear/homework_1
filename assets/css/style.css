@@ -17,8 +17,9 @@ header {
     border: solid 1px #cccccc;
     height: 75px;
     width: 100%;
-    margin: 0 auto;
+    margin-bottom: 30px;
     position: relative;
+    line-height: 75px;
 }
 
 h1,
@@ -47,8 +48,21 @@ h2 {
 
 nav {
     position: absolute;
-    right: 0px;
-    width: 735px;
+    right: 16.666666666667%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #777777;
+}
+
+nav a:hover {
+    color: #dddddd;
+}
+
+nav span {
+    color: #dddddd;
+    margin: 2px; 
 }
 
 .container {
@@ -56,26 +70,25 @@ nav {
     margin: 0 auto;
     background: #ffffff;
     border: solid 1px #dddddd;
-    padding: 40px;
+    padding: 0 40px;
 }
 
 .headshot-img {
     height: 200px;
     width: 200px;
     float: left;
+    margin-top: 10px;
     margin-right: 20px;
-}
-
-.main-bio {
-
 }
 
 footer {
     background: #666666;
     color: #ffffff;
+    margin-top: 50px;
     font-size: 9px;
     height: 55px;
     text-align: center;
+    line-height: 55px;
 }
 
 .div-foot {
