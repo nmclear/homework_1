@@ -7,12 +7,18 @@ body {
     background-image: url(../images/light-veneer/light-veneer.png);
     color: #777777;
     letter-spacing: 1px;
-    line-height: 1.5;
+    line-height: 150%;
+    font-size: 16px;
+    margin: 0;
 }
 
 header {
     background: #ffffff;
     border: solid 1px #cccccc;
+    height: 75px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
 }
 
 h1,
@@ -22,7 +28,14 @@ h2 {
 
 h1 {
     background: #4aaaa5;
+    text-align: center;
+    width: 225px;
+    height: 75px;
+    position: absolute;
+    left: 16.666666666667%;
+    margin: 0;
 }
+
 h2 {
     color: #4aaaa5;
 }
@@ -32,16 +45,29 @@ h2 {
     color: #ffffff;
 }
 
+nav {
+    position: absolute;
+    right: 0px;
+    width: 735px;
+}
+
 .container {
-    width: 960px;
+    width: 66.666666666667%;
     margin: 0 auto;
     background: #ffffff;
     border: solid 1px #dddddd;
+    padding: 40px;
 }
 
 .headshot-img {
     height: 200px;
     width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.main-bio {
+
 }
 
 footer {
